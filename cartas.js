@@ -37,7 +37,7 @@ var A4 = {
 var A5 = {
     nome: "Lulu",
     atributos: {
-        Ataque: 48,
+        Ataque: 78,
         Range: 550,
         Defesa: 626
     }
