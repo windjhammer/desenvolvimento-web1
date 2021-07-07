@@ -1,0 +1,87 @@
+<html lang="pt-br">
+<head>
+<script type="text/javascript" src="cartas.js"></script>
+<link rel="stylesheet" href="corpo.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento de Sistemas Web 1</title>
+
+</head>
+<body>
+  
+    <audio id="tocar" src="" preload="auto" autoplay></audio>
+
+    <section  class="container">
+        
+        <img width="400px" src="img\logo super trunfo.png" alt="">
+
+        <br> <br>
+        <button class="botao" onclick="sortearCarta()" id="btnSortear">SORTEAR CARTA</button>
+        <br> <br> <hr>
+
+        <div class="row">
+
+            <article class="col-md-2"></article>
+
+            <article class="col-md-4">
+
+                <div class="carde text-justify">
+                    <br>
+                    <h4>VOCÊ</h4>
+                    <br>
+
+                    <div class="resultados">
+                        <img class="mudar img-fluid" width="250px" src="">
+                    </div>
+                    
+                        <div>
+                        <br>
+                        <form id="form">
+                            <div style="text-align: center;" class="opcoes img-fluid" id="opcoes"></div>
+                            <br>
+
+                            <div id="inserirBotao">
+                            </div>
+
+                        </form>
+                        <br>
+                        </div>
+
+                </div>
+
+            </article>
+
+            <article class="col-md-4">
+
+                <div class="carde text-dark text-justify">
+                    <br>
+                    <h4>BOT</h4>
+                    <br>
+
+                    <div class="resultados">
+                        <img class="mudar2 img-fluid" width="250px" src="">
+                    </div>
+
+                </div>     
+                
+                <div class="paragrafo">
+                    <br>
+                    <p></p>
+                    
+                    <div id="inserirBotaoTentar">
+                    </div>
+
+                </div>
+
+            </article>
+
+            <article class="col-md-2"></article>
+
+
+        </div>
+
+    </section>
+    
+</body>
+</html>
